@@ -4,10 +4,16 @@ html {
 }
 nav {
     background-color: #000;
+}
+#containerHeader {
+    width: 85%;
+	margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
+
 .logo {
     display: flex;
     position: relative;
@@ -109,7 +115,7 @@ nav {
 }
 
 #sec-1 {
-    background: linear-gradient(45deg, #2A0944, #3B185F, #A12568, #FEC260);
+    background: linear-gradient(45deg, #2A0944, #3B185F, #722040, #8b2444);
     background-size: 300% 300%;
     animation: gradient 10s ease infinite;
 }
@@ -185,13 +191,13 @@ nav {
 
 @keyframes gradient {
     0% {
-        background-position: 0% 50%;
+        background-position: 0% 40%;
     }
     50% {
         background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0% 40%;
     }
 }
 
