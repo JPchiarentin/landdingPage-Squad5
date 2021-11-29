@@ -83,6 +83,10 @@ nav {
     margin-right: 20px;
 }
 
+.itens::before {
+    content: " ["
+    }
+    
 .informações {
     font-size: 30px;
     color: #fff;
