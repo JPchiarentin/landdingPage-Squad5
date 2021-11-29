@@ -52,32 +52,37 @@ nav {
     font-size: 40px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    height: 200px;
+    height: 100px;
     width: 100%;
     margin-top: 50px;
     text-align: center;
 }
 .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 800px;
     flex-direction: column;
     position: relative;
 }
 .text {
-    display: inline-block;
-    text-align: center;
-	width: 30%;
-    vertical-align: top;
-	margin-bottom: 450px;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border-radius: 10px;
-    font-size: 34px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	width: 20%;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
-
+    height: 40px;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
 }
+.itens {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .informações {
     font-size: 30px;
     color: #fff;
