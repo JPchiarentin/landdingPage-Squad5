@@ -290,10 +290,24 @@ form label, form legend {
     background-color: red;
     transform: scale(1.05);
 }
-.copyright {
-	text-align: center;
-    color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px;
 
+footer {
+    background: #000;
+}
+footer ul {
+    width: 85%;
+	margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#containerFooter {
+    width: 85%;
+	margin: 0 auto;
+}
+.rodape {
+    color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+    text-decoration: none;
 }
