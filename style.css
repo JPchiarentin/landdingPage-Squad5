@@ -12,7 +12,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
+    }
 
 .logo {
     display: flex;
@@ -38,8 +38,10 @@ nav {
     border: 3px solid #fff;
     border-radius: 5px;
     padding: 30px 60px;
+    text-align: center;
 }
 .subtext {
+    text-align: center;
     font-size: 20px;
     color: #fff;
     margin-top: 30px;
@@ -59,6 +61,7 @@ nav {
 }
 .container {
     display: flex;
+    text-align: center;
     align-items: flex-start;
     justify-content: space-around;
     height: 800px;
@@ -249,6 +252,7 @@ nav {
 }
 form {
    font-weight: bold;
+   color: white;
 }
 
 form label, form legend {
@@ -285,4 +289,11 @@ form label, form legend {
 .enviar:hover {
     background-color: red;
     transform: scale(1.05);
+}
+.copyright {
+	text-align: center;
+    color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px;
+
 }
