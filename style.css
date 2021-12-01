@@ -87,7 +87,7 @@ nav {
 }
 
 .itens::before {
-    content: " ["
+    content: ""
     }
     
 .informações {
