@@ -12,7 +12,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
+    }
 
 .logo {
     display: flex;
@@ -40,11 +40,9 @@ nav {
     padding: 30px 60px;
     align-items: center;
 }
-#title {
-    text-align: center;
-}
 
 .subtext {
+    text-align: center;
     font-size: 20px;
     color: #fff;
     margin-top: 30px;
@@ -64,6 +62,7 @@ nav {
 }
 .container {
     display: flex;
+    text-align: center;
     align-items: flex-start;
     justify-content: space-around;
     height: 800px;
@@ -88,6 +87,10 @@ nav {
     margin-right: 20px;
 }
 
+.itens::before {
+    content: ""
+    }
+    
 .informações {
     font-size: 30px;
     color: #fff;
@@ -250,6 +253,7 @@ nav {
 }
 form {
    font-weight: bold;
+   color: white;
 }
 
 form label, form legend {
@@ -286,4 +290,25 @@ form label, form legend {
 .enviar:hover {
     background-color: red;
     transform: scale(1.05);
+}
+
+footer {
+    background: #000;
+}
+footer ul {
+    width: 85%;
+	margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#containerFooter {
+    width: 85%;
+	margin: 0 auto;
+}
+.rodape {
+    color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+    text-decoration: none;
 }
