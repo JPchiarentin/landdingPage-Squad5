@@ -1,5 +1,4 @@
 html {
-    font-family: sans-serif;
     scroll-behavior: smooth;
 }
 nav {
@@ -86,11 +85,6 @@ nav {
     margin-left: 20px;
     margin-right: 20px;
 }
-
-.itens::before {
-    content: ""
-    }
-    
 .informações {
     font-size: 30px;
     color: #fff;
@@ -251,6 +245,8 @@ nav {
         opacity: 0;
     }
 }
+
+ 
 form {
    font-weight: bold;
    color: white;
@@ -260,24 +256,29 @@ form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
+    display: flex;
+    margin: 0 0 30px;
+    padding: 15px 25px;
     width: 50%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(34, 34, 34);
 }
 
 .checkbox {
     margin: 20px 0;
+    border: none;
+    border-radius: 5px;
 }
 
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background-color: orange;
+    background-color: rgb(255, 17, 0);
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -288,7 +289,7 @@ form label, form legend {
 }
 
 .enviar:hover {
-    background-color: red;
+    background-color: rgb(99, 1, 1);
     transform: scale(1.05);
 }
 
