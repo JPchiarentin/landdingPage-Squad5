@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+.font {
+    font-family: 'Saira', sans-serif;
+}
 nav {
     background-color: #000;
 }
@@ -27,7 +30,7 @@ nav {
     justify-content: end;
 }
 .fas {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #fff;
 }
 .title {
@@ -53,7 +56,6 @@ nav {
     font-weight: bold;
     font-size: 40px;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
     height: 100px;
     width: 100%;
     margin-top: 50px;
@@ -74,7 +76,6 @@ nav {
     flex-wrap: wrap;
 	width: 20%;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
     height: 40px;
     justify-content: space-around;
     margin-right: 10%;
@@ -93,7 +94,6 @@ nav {
     list-style-type: "•";
     cursor: default;
     margin-bottom: 100px;
-    font-family: 'Montserrat', sans-serif;
 }
 .cit {
     font-size: 50px;
@@ -127,8 +127,9 @@ nav {
 }
 
 #sec-1 {
-    background: linear-gradient(45deg, #2A0944, #3B185F, #722040, #8b2444);
-    background-size: 300% 300%;
+    color: #000;
+    background-image: url("sec-1.png");
+
     animation: gradient 10s ease infinite;
 }
 #sec-2 {
@@ -229,24 +230,6 @@ nav {
         opacity: 0;
     }
 }
-
-@keyframes scroll-top {
-    100% {
-        
-        opacity: 0;
-    }
-    60% {
-        opacity: 1;
-    }
-    30% {
-        opacity: 1;
-    }
-    0% {
-        top: 90%;
-        opacity: 0;
-    }
-}
-
  
 form {
    font-weight: bold;
