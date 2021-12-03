@@ -50,7 +50,7 @@ nav {
     font-weight: bold;
     font-size: 40px;
     color: #fff;
-    height: 100px;
+    height: 00px;
     width: 100%;
     margin-top: 50px;
     text-align: center;
@@ -60,7 +60,7 @@ nav {
     text-align: center;
     align-items: flex-start;
     justify-content: space-around;
-    height: 850px;
+    height: 825px;
     flex-direction: column;
     position: relative;
 }
@@ -80,14 +80,16 @@ nav {
 .itens {
     margin-left: 20px;
     margin-right: 20px;
+    text-align: center;
 }
 .informações {
+    text-align: center;
     font-size: 30px;
     color: #fff;
-    line-height: -20px;
-    list-style-type: "•";
+    line-height: 85px;
     cursor: default;
-    margin-bottom: 100px;
+    margin-bottom: 00px;
+    padding: 700px;
 }
 .cit {
     font-size: 50px;
