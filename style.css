@@ -139,6 +139,18 @@ nav {
     background: #57423F;
     opacity: .3;
 }
+#sec-1 .container {
+    display: flex;
+    align-items: center;
+
+}
+#sec-1 .container .box {
+    background: rgba(0,0,0, 0.3);
+    width: 80%;
+    height: 90%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
 #sec-2 {
     background: url("assets/bg-3.1.png");
 }
