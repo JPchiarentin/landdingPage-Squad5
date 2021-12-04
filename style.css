@@ -7,6 +7,16 @@ html {
 nav {
     background-color: #000;
 }
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
 header .container {
     height: 53px;
     width: 85%;
@@ -32,22 +42,14 @@ header .container {
     font-size: 1.5em;
 }
 #sec-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
     background: url("sec-1.png");
     background-size: cover;
     animation: gradient 10s ease infinite;
 }
-/*
-.overlay {
-    position: absolute;  
-    width: 100%;
-    height: 100%;
-    background: #57423F;
-    opacity: .3;
-}*/
+#sec-1 .container {
+    height: 80vh;
+}
+
 .box {
     background: rgba(0,0,0, 0.3);
     width: 80%;
@@ -80,15 +82,6 @@ header .container {
     text-align: center;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    height: 80vh;
-    flex-direction: column;
-    position: relative;
-}
 .text {
     font-size: 70px;
     color: #fff;
