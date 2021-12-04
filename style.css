@@ -51,13 +51,13 @@ header .container {
 
 .box {
     display: flex;
-    background: rgba(0,0,0, 0.3);
+    background: rgba(0,0,0, 0.4);
     width: 80%;
     height: 90%;
-    padding: 60px;
+    padding: 60px 90px;
     box-sizing: border-box;
     border-radius: 15px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .texto {
     width: 40%;
@@ -183,6 +183,9 @@ h6 {
     font-size: 40px;
     color: #fff;
     text-align: justify;
+    border-bottom: 2px solid rgb(0,0,0);
+    width: 80%;
+    padding-bottom: 10px;
 }
 .deal {
     margin: 20px 0px;
@@ -190,10 +193,44 @@ h6 {
 }
 
 #sec-4 {
-    background: url("assets/bg-1.png");
+    background-color: #000;
+    border-bottom: 2px solid rgb(255, 17, 0);
 }
+#sec-4 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.transforme {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 17, 0);
+    padding: 20px 0px;
+}
+.titulo-transforme {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-align: justify;
+    border-bottom: 2px solid rgb(0,0,0);
+    width: 50%;
+}
+.subtext-transforme {
+    width: 50%;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
 #sec-5 {
     background-color: #000;
+    border-bottom: 8px solid #f7f7f7 ;
+    border-bottom-width: medium;
 }
 #sec-6 {
     background: url("assets/bg-1.png");
@@ -318,7 +355,7 @@ form label, form legend {
 }
 
 .enviar {
-    width: 40%;
+    width: 50%;
     padding: 15px 0;
     background-color: rgb(255, 17, 0);
     color: white;
