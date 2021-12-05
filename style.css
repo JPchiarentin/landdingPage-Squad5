@@ -316,7 +316,18 @@ footer .container {
     font-size: 30px;
     margin-top: 50px;
 }
-<<<<<<< HEAD
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 40%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 40%;
+    }
+}
 h2::after {
     content: "|";
     margin-left: 5px;
@@ -331,17 +342,3 @@ h2::after {
         opacity: 0;
     }
 }
-=======
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 40%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 40%;
-    }
-}
->>>>>>> 7a0f113c9ad9607a10bc1b055f67a783dfa30040
