@@ -153,18 +153,18 @@ h6 {
 #sec-2 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 15vh;
 }
 
 .lorem {
-    width: 26%;
+    width: 30%;
     color: #fff;
-    text-align: justify;
+    text-align: left;
 }
 
 .star5 {
-    width: 26%;
+    width: 30%;
 }
 
 #sec-3 {
