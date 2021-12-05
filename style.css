@@ -279,7 +279,15 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 300px;
+    height: 20vh;
+}
+.cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#sec-6 .subtext {
+    font-size: 30px;
 }
 #sec-7 {
     background-color: #000;
@@ -384,31 +392,23 @@ form label, form legend {
 }
 
 .input-padrao {
-    display: flex;
-    margin: 0 30px 30px;
-    padding: 15px 25px;
+    padding: 16px 100px;
     width: 100%;
     border: none;
-    border-radius: 5px;
-    background-color: rgb(34, 34, 34);
-    color: white;
-}
-
-.checkbox {
-    margin: 20px 0;
-    border: none;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #fff;
 }
 
 .enviar {
-    width: 70%;
-    padding: 15px 0;
+    padding: 15px 15px;
     background-color: red;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     border: none;
-    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     transition: 0.5s all;
     cursor: pointer;
 }
