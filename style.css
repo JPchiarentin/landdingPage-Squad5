@@ -158,9 +158,10 @@ h6 {
 }
 
 .lorem {
-    width: 30%;
+    width: 33%;
     color: #fff;
     text-align: left;
+    margin-left: 100px;
 }
 
 .star5 {
@@ -178,6 +179,9 @@ h6 {
     flex-direction: column;
     justify-content: center;
     width: 50%;
+}
+.imp img {
+    width: 70%;
 }
 .titulo-beneficios {
     font-weight: bold;
@@ -231,7 +235,8 @@ h6 {
 #sec-5 {
     background-color: #000;
 }
-#sec-5 .container {
+#sec-5 .container { 
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -241,15 +246,13 @@ h6 {
     font-size: 40px;
     color: #fff;
     text-align: justify;
-    margin-top: -70px;
+
 
 }
 .text-box {
     border: 4px solid #fff;
-    width: 50%;
     padding: 20px;
     margin: 0px 20px;
-    margin-bottom: -200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
