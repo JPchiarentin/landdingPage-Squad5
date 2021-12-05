@@ -41,7 +41,7 @@ header .container {
     font-size: 1em;
 }
 #sec-1 {
-    background: url("sec-1.png");
+    background: url("assets/sec-1.png");
     background-size: cover;
     animation: gradient 10s ease infinite;
 }
@@ -166,6 +166,7 @@ h6 {
 .star5 {
     width: 26%;
 }
+
 #sec-3 {
     background: url("assets/bg-3.png");
 }
@@ -229,8 +230,43 @@ h6 {
 
 #sec-5 {
     background-color: #000;
-    border-bottom: 8px solid #f7f7f7 ;
-    border-bottom-width: medium;
+}
+#sec-5 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.titulo-social {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-align: justify;
+
+}
+.text-box {
+    border: 4px solid #fff;
+    width: 50%;
+    padding: 20px;
+    margin: 0px 20px;
+    margin-bottom: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.depoimento {
+    display: flex;
+    width: 60%;
+}
+.aluno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aluno .star5 {
+    width: 40%;
+}
+.aluno .avatar {
+    margin-top: 20px;
 }
 #sec-6 {
     background: url("assets/bg-1.png");
