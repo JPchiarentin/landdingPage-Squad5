@@ -1,11 +1,18 @@
 .galery {
-    width: 640px;
+    width: 600px;
     height: 360px;
     background-color: black;
     overflow: hidden;
+    margin: auto;
+    position: relative;
+    border: 15px solid #7e171d;
+    border-radius: 10px;
 }
 
 .galery .fotos {
+    position: absolute;
+    display: flex;
+    height: 100%;
     width: 500%;
     animation-name: animacao;
     animation-duration: 20s;
@@ -14,16 +21,5 @@
 }
 
 .galery .fotos img {
-    width: 19.9%;
-}
-@keyframes animacao {
-    0% { margin-left: 0; }
-    20% { margin-left: 0; }
-    25% { margin-left: -100%; }
-    45% { margin-left: -100%; }
-    50% { margin-left: -200%; }
-    70% { margin-left: -200%; }
-    75% { margin-left: -300%; }
-    95% { margin-left: -300%; }
-    100% { margin-left: -400%; }
+    width: 20%;
 }
