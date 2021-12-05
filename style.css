@@ -328,17 +328,3 @@ footer .container {
         background-position: 0% 40%;
     }
 }
-h2::after {
-    content: "|";
-    margin-left: 5px;
-    opacity: 1;
-    animation: pisca .7s infinite;
-}
-@keyframes pisca {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
