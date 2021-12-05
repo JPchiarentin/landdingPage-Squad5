@@ -1,26 +1,17 @@
-const carouselSlide = document.querySelector(".slider");
-const carouselImg = document.querySelectorAll(".slider img");
-const slides = document.querySelectorAll(".slide");
-const numberOfSlides = slides.length;
-var slideNumber = 0;
+const titulo1 = document.querySelector(".subtext1");
+const titulo2 = document.querySelector(".subtext2");
 
-const nextBtn = document.querySelector("#nextBtn");
-const prevBtn = document.querySelector("#prevBtn");
-
-nextBtn.addEventListener("click", function(){
-    slides.forEach( function (slide) {
-        slide.classList.remove ("active")
-        
+function typeWrite(elemento) {
+    const textoArray = elemento.innerHTML.split("");
+    elemento.innerHTML = "";
+    textoArray.forEach((letra, i) => {
+        setTimeout(function() {
+            elemento.innerHTML += letra;
+        }, 100 * i)
     });
+        
     
-    slideNumber++
+}
 
-    if(slideNumber > (numberOfSlides - 1)){
-        slideNumber = 0;
-    }
-
-    slides[slideNumber].classList.add("active");
-    
-});
-
-
+typeWrite(titulo1);
+typeWrite(titulo2);

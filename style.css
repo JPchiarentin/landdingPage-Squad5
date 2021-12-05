@@ -28,6 +28,7 @@ header .container {
 
 .logo img {
     width: 325px;
+    cursor: pointer;
 }
 .esp {
     font-size: 15px;
@@ -35,6 +36,11 @@ header .container {
     font-weight: bold;
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+.esp:hover {
+    color: red;
+    transition: 0.5s all;
 }
 .fas {
     margin: 7px;
@@ -66,34 +72,78 @@ header .container {
     justify-content: center;
     text-align: justify;
 }
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+    animation: fade-in-bt 2s ease-in-out;
+}
+
+@keyframes fade-in-bt {
+  from {
+    transform: translateY(-2em);
+    opacity: 0;
+  }
+}
+
+.subtext1, .subtext2 {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    animation: fade-in-left 3s ease-in-out;
+}
+
 .button {
     margin: 25px 0px;
+    animation: fade-in-left 6s ease-in-out;
+}
+
+@keyframes fade-in-left {
+  from {
+    transform: translatex(-2em);
+    opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }
 .button .btn {
-        width: 70%;
-        padding: 15px 0;
-        background-color: red;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        border: none;
-        border-radius: 5px;
-        transition: 0.5s all;
-        cursor: pointer;
+    width: 70%;
+    padding: 15px 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
 }
+h6 {
+    color: #fff;
+}
+.button h6 {
+    margin: 10px 0px;
+}
+
 .yt {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: fade-in-right 3s ease-in-out;
 }
-h6 {
-    color: #fff;
-}
-.title {
-    font-weight: bold;
-    font-size: 50px;
-    color: #fff;
+@keyframes fade-in-right {
+    from {
+      transform: translatex(2em);
+      opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .subtext {
@@ -113,6 +163,7 @@ h6 {
     flex-direction: row;
     justify-content: space-around;
     height: 15vh;
+    animation: fade-in-left 3s ease-in-out;
 }
 
 .lorem {
@@ -204,8 +255,6 @@ h6 {
     font-size: 40px;
     color: #fff;
     text-align: justify;
-
-
 }
 .depoimento {
     display: flex;
@@ -315,9 +364,8 @@ footer .container {
 	font-size: 15px;
     text-decoration: none;
 }
-.register-title {
-    font-size: 30px;
-    margin-top: 50px;
+.rodape img {
+    cursor: pointer;
 }
 
 @keyframes gradient {
