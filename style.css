@@ -273,7 +273,13 @@ h6 {
     margin-top: 20px;
 }
 #sec-6 {
-    background: url("assets/bg-1.png");
+    background: url("assets/bg-3.png");
+}
+#sec-6 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
 }
 #sec-7 {
     background-color: #000;
@@ -379,9 +385,9 @@ form label, form legend {
 
 .input-padrao {
     display: flex;
-    margin: 0 0 30px;
+    margin: 0 30px 30px;
     padding: 15px 25px;
-    width: 50%;
+    width: 100%;
     border: none;
     border-radius: 5px;
     background-color: rgb(34, 34, 34);
@@ -395,9 +401,9 @@ form label, form legend {
 }
 
 .enviar {
-    width: 50%;
+    width: 70%;
     padding: 15px 0;
-    background-color: rgb(66, 66, 66);
+    background-color: red;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -408,8 +414,9 @@ form label, form legend {
 }
 
 .enviar:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     transform: scale(1.05);
+    color: red;
 }
 
 footer {
@@ -431,4 +438,8 @@ footer ul {
 	text-align: center;
 	font-size: 15px;
     text-decoration: none;
+}
+.register-title {
+    font-size: 30px;
+    margin-top: 50px;
 }
