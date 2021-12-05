@@ -291,6 +291,9 @@ form label, form legend {
     transform: scale(1.05);
     color: red;
 }
+#sec-6 .btn:hover{
+    transform: none;
+}
 
 footer {
     background: #000;
