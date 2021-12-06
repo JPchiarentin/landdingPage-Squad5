@@ -1,0 +1,373 @@
+html {
+    scroll-behavior: smooth;
+}
+.font {
+    font-family: 'Saira', sans-serif;
+}
+nav {
+    background-color: #000;
+}
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .container {
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.logo img {
+    width: 325px;
+    cursor: pointer;
+}
+.esp {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.esp:hover {
+    color: red;
+    transition: 0.5s all;
+}
+.fas {
+    margin: 7px;
+    font-size: 1em;
+}
+#sec-1 {
+    background: url("assets/sec-1.png");
+    background-size: cover;
+    animation: gradient 10s ease infinite;
+}
+#sec-1 .container {
+    height: 80vh;
+}
+
+.box {
+    display: flex;
+    background: rgba(0,0,0, 0.4);
+    width: 80%;
+    height: 90%;
+    padding: 60px 90px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+.texto {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+    animation: fade-in-bt 2s ease-in-out;
+}
+
+@keyframes fade-in-bt {
+  from {
+    transform: translateY(-2em);
+    opacity: 0;
+  }
+}
+
+.subtext1, .subtext2 {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    animation: fade-in-left 3s ease-in-out;
+}
+
+.button {
+    margin: 25px 0px;
+    animation: fade-in-left 6s ease-in-out;
+}
+
+@keyframes fade-in-left {
+  from {
+    transform: translatex(-2em);
+    opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+.button .btn {
+    width: 70%;
+    padding: 15px 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+h6 {
+    color: #fff;
+}
+.button h6 {
+    margin: 10px 0px;
+}
+
+.yt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fade-in-right 3s ease-in-out;
+}
+@keyframes fade-in-right {
+    from {
+      transform: translatex(2em);
+      opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.subtext {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#sec-2 {
+    background-color: #000;
+}
+#sec-2 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 15vh;
+    animation: fade-in-left 3s ease-in-out;
+}
+
+.lorem {
+    width: 33%;
+    color: #fff;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.star5 {
+    width: 30%;
+}
+
+#sec-3 {
+    background: url("assets/bg-3.png");
+}
+#sec-3 .container {
+    height: 70vh;
+}
+.imp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.imp img {
+    width: 70%;
+}
+.titulo {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-align: justify;
+    border-bottom: 2px solid rgb(0,0,0);
+    width: 80%;
+    padding-bottom: 10px;
+}
+.deal {
+    margin: 20px 0px;
+    width: 80%;
+}
+
+#sec-4 {
+    background-color: #000;
+    border-bottom: 2px solid rgb(255, 17, 0);
+}
+#sec-4 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.transforme {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 17, 0);
+    padding: 20px 0px;
+}
+.transforme .titulo {
+    width: 50%;
+}
+.transforme .subtext {
+    width: 50%;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#sec-5 {
+    background-color: #000;
+}
+#sec-5 .container { 
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#sec-5 .container .titulo {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    width: 100%;
+}
+.depoimento {
+    display: flex;
+    width: 60%;
+}
+.text-box {
+    border: 4px solid #fff;
+    padding: 20px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aluno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aluno .avatar {
+    margin-top: 20px;
+}
+
+.aluno .star5 {
+    width: 40%;
+}
+
+#sec-6 {
+    background: url("assets/bg-3.png");
+}
+#sec-6 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+}
+.cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#sec-6 .subtext {
+    font-size: 35px;
+}
+
+form {
+   font-weight: bold;
+   color: white;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: rgb(255, 255, 255);
+}
+
+.input-padrao {
+    padding: 16px 100px;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #fff;
+}
+
+.btn {
+    padding: 15px 15px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    color: red;
+}
+#sec-6 .btn:hover{
+    transform: none;
+}
+
+footer {
+    background: #000;
+}
+footer ul {
+    width: 85%;
+	margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container {
+    height: 8vh;
+    width: 85%;
+}
+.rodape {
+    color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+    text-decoration: none;
+}
+.rodape img {
+    cursor: pointer;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 40%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 40%;
+    }
+}
